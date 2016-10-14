@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/bestandroidapps"
+    tools:context=".LoginActivity">
+
+
+    <EditText android:id="@+id/email" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Email"
+        android:textColorHint="@android:color/white"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#3e4dd4"
+        android:inputType="textEmailAddress" android:maxLines="1"
+        android:singleLine="true" />
+
+    <EditText android:id="@+id/password" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="password"
+        android:textColorHint="@android:color/white"
+        android:textColor="#3e4dd4"
+        android:inputType="textPassword"
+        android:maxLines="1" android:singleLine="true" />
+
+    <Button android:id="@+id/sign_in_register"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textColor="#09c111"
+        android:layout_marginTop="16dp" android:text="SIGN IN OR REGISTER"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FORGOT PASSWORD"
+        android:textColor="#da2f1d"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:onClick="getting" />
+    <Button
+        android:id="@+id/gog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in with Google"
+        android:layout_marginTop="40dp"
+        android:textColor="#53bbb6" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"/>
+
+</LinearLayout>

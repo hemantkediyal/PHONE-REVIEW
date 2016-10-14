@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <!-- Header -->
+    <!--<include layout="@layout/header"/>-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutHeader1"
+        android:onClick="next"
+        android:text="LOGOUT"
+        android:textColor="#ffffff"
+        android:background="#dca3a3" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_below="@id/layoutHeader1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="#bababa"
+        android:dividerHeight="1dp"
+        android:background="#84c1ef"
+        android:cacheColorHint="#00000000"/>
+
+</RelativeLayout>

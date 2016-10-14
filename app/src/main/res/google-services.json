@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "66509011152",
+    "project_id": "phone-review"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66509011152:android:830343ec600033de",
+        "android_client_info": {
+          "package_name": "com.example.hemant.minor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66509011152-0n9c74scpid8140bngp8jc45h8cnan2a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hemant.minor",
+            "certificate_hash": "03D5DAAA6839AF5CE76EA6C79925831BD15A6B27"
+          }
+        },
+        {
+          "client_id": "66509011152-6cm2qdl7ad0f97lcm1jb5nigul2h4oc2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZIMEdmuKYL3EUrjG4tkTLdCKww0k44-M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

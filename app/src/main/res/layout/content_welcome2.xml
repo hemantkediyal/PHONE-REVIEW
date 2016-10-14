@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.hemant.minor.welcome2Activity"
+    tools:showIn="@layout/app_bar_welcome2"
+    android:background="#31dd2e">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="#ade7f6">
+
+        <!-- Header -->
+        <include layout="@layout/header"/>
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_below="@+id/layoutHeader"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:divider="#bababa"
+            android:dividerHeight="1dp"
+            android:background="#ade7f6"
+            android:cacheColorHint="#00000000"/>
+
+        <!--   <Button
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="LOGOUT"
+               android:id="@+id/button"
+               android:layout_alignParentTop="true"
+               android:layout_alignParentRight="true"
+               android:layout_alignParentEnd="true" />-->
+    </RelativeLayout>
+
+</RelativeLayout>
